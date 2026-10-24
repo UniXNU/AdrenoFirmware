@@ -1,7 +1,7 @@
 # AdrenoFirmware
 
-Adreno GMU firmware kit. Builds the HFI transport, startup sequence and power votes, and embeds the GMU and SQE firmware.
+Adreno firmware and HFI protocol support.
 
-Current state: GMU cold start and HFI work on sheng hardware.
+GMU cold start and HFI work on sheng hardware.
 
-Built into the kernel with the sheng GPU stack.
+Build and interface details: [documentation](https://unixnu.com/drivers/adreno-firmware). Component sources and dependencies: [catalog](https://unixnu.com/reference/components).
